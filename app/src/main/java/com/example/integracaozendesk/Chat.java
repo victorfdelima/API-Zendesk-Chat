@@ -13,7 +13,7 @@ public class Chat extends AppCompatActivity {
 
 
 
-    private static final String CHAT_ACCOUNT_KEY = "Sua chave aqui"; //Chave de acesso da conta do Livechat
+    private static final String CHAT_ACCOUNT_KEY = "Sua chave aqui"; //Chave de acesso da conta do Livechat Zendesk
     private static boolean missingCredentials = false;
 
 
@@ -28,11 +28,11 @@ public class Chat extends AppCompatActivity {
         if (StringUtils.isEmpty(CHAT_ACCOUNT_KEY)) {
             missingCredentials = true;
         }
-
+        //alterar o zendesk.chat.Chat por Chat e refatorar a classe Chat para AJuda ou Help
         zendesk.chat.Chat.INSTANCE.init(this, CHAT_ACCOUNT_KEY);
 
         if (Chat.isMissingCredentials()) {
-            setContentView(R.layout.activity_main);
+            setContentView(R.layout.activity_main); //Alterar a activity_main que consta no R.Layout.activity_main para a sua tela de ajuda ou Help
             return;
         }
 
