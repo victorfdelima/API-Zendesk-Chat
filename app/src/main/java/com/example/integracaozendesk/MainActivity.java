@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
+//Criei no MenuBar uma chamada para essa tela chamada Chat no caso a minha activity
     public void onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
         switch (id) {
