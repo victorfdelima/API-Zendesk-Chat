@@ -25,7 +25,7 @@ Integração da API do zendesk chat comentada e facilitada
 4. Adicione o código todo na sua classe chamada Help ou Ajuda alterando o pacote também
 - Nome da public class
 - Package
-- e alterando a nomenclatura da activity main para o nome da sua tela de chat chamada Help ou Ajuda
+- e alterando a nomenclatura da activity main no código para o nome da sua activity criada automaticamente.
 
 5. Após isso, faça o teste.
 
